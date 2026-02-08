@@ -13,6 +13,12 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log('DB connection error:', err));
 
+  // Add after mongoose.connect
+const serviceRoutes = require('./routes/services');
+const bookingRoutes = require('./routes/bookings');
+app.use('/api/services', serviceRoutes);
+app.use('/api/bookings', bookingRoutes);
+
 app.get('/', (req, res) => res.send('Server running'));
 
 const PORT = process.env.PORT || 5000;
