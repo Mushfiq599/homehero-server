@@ -6,6 +6,7 @@ const Service = require('../models/Service');
 router.get('/', async (req, res) => {
     try {
         let query = {};
+        if (req.query.email) query.providerEmail = req.query.email;
         if (req.query.minPrice) query.price = { $gte: Number(req.query.minPrice) };
         if (req.query.maxPrice) query.price = { ...query.price, $lte: Number(req.query.maxPrice) };
         const services = await Service.find(query).sort({ 'reviews.length': -1 }); // Sort by ratings for challenge
@@ -28,6 +29,7 @@ router.post('/', async (req, res) => {
 
 // GET single service
 router.get('/:id', async (req, res) => {
+    
     try {
         const service = await Service.findById(req.params.id);
         if (!service) return res.status(404).json({ message: 'Not found' });
