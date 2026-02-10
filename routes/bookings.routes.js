@@ -4,28 +4,38 @@ import { getDB } from "../db/getDB.js";
 
 const router = express.Router();
 
-// Create booking
+// POST /api/bookings
 router.post("/", async (req, res) => {
   try {
     const db = getDB();
     const booking = req.body;
 
-    // basic validation
-    if (!booking?.serviceId || !booking?.userEmail) {
-      return res.status(400).json({ message: "serviceId and userEmail required" });
+    const required = ["serviceId", "userEmail", "bookingDate", "price"];
+    const missing = required.filter((k) => !booking?.[k]);
+    if (missing.length) {
+      return res.status(400).json({ message: `Missing fields: ${missing.join(", ")}` });
     }
 
-    booking.createdAt = new Date();
-    booking.status = "pending";
+    if (!ObjectId.isValid(booking.serviceId)) {
+      return res.status(400).json({ message: "Invalid serviceId" });
+    }
 
-    const result = await db.collection("bookings").insertOne(booking);
+    const doc = {
+      ...booking,
+      serviceId: booking.serviceId, // keep as string, ok
+      price: Number(booking.price),
+      createdAt: new Date(),
+      status: booking.status || "pending",
+    };
+
+    const result = await db.collection("bookings").insertOne(doc);
     res.json({ insertedId: result.insertedId });
   } catch (err) {
-    res.status(500).json({ message: err.message });
+    res.status(500).json({ message: err.message || "Failed to create booking" });
   }
 });
 
-// Get my bookings by email
+// GET /api/bookings?email=user@mail.com
 router.get("/", async (req, res) => {
   try {
     const db = getDB();
@@ -41,20 +51,22 @@ router.get("/", async (req, res) => {
 
     res.json(data);
   } catch (err) {
-    res.status(500).json({ message: err.message });
+    res.status(500).json({ message: err.message || "Failed to fetch bookings" });
   }
 });
 
-// Delete booking
+// DELETE /api/bookings/:id
 router.delete("/:id", async (req, res) => {
   try {
     const db = getDB();
-    const id = req.params.id;
+    const { id } = req.params;
+
+    if (!ObjectId.isValid(id)) return res.status(400).json({ message: "Invalid booking id" });
 
     const result = await db.collection("bookings").deleteOne({ _id: new ObjectId(id) });
     res.json(result);
   } catch (err) {
-    res.status(500).json({ message: err.message });
+    res.status(500).json({ message: err.message || "Failed to delete booking" });
   }
 });
 
