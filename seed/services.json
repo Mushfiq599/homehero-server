@@ -4,7 +4,7 @@
     "category": "Electrician",
     "price": 35,
     "description": "Fix switches, sockets, minor wiring issues with safety checks included.",
-    "imageURL": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1581092160560-1c1e428e9d65?auto=format&fit=crop&q=80&w=1200",
     "providerName": "BrightWire Services",
     "providerEmail": "seed@homehero.com"
   },
@@ -13,7 +13,7 @@
     "category": "Electrician",
     "price": 55,
     "description": "Install or replace ceiling fan, balance blades, and test speed regulator.",
-    "imageURL": "https://images.unsplash.com/photo-1603570419987-2d1b65a1c9d2?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://plus.unsplash.com/premium_photo-1682086494688-8d751a599dd5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "BrightWire Services",
     "providerEmail": "seed@homehero.com"
   },
@@ -22,7 +22,7 @@
     "category": "Plumbing",
     "price": 40,
     "description": "Fix common pipe/tap leaks, replace washers, and check water pressure.",
-    "imageURL": "https://images.unsplash.com/photo-1581579185169-83f6b1d9c2d7?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "FlowFix Plumbing",
     "providerEmail": "seed@homehero.com"
   },
@@ -31,7 +31,7 @@
     "category": "Plumbing",
     "price": 45,
     "description": "Clear clogged sink/bath drains using safe tools and basic inspection.",
-    "imageURL": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6b7?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1676210133055-eab6ef033ce3?q=80&w=741&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "FlowFix Plumbing",
     "providerEmail": "seed@homehero.com"
   },
@@ -40,7 +40,7 @@
     "category": "Cleaning",
     "price": 30,
     "description": "Dusting, sweeping, mopping, bathroom + kitchen touch-up for small homes.",
-    "imageURL": "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1200",
     "providerName": "SparkleCrew",
     "providerEmail": "seed@homehero.com"
   },
@@ -49,7 +49,7 @@
     "category": "Cleaning",
     "price": 60,
     "description": "Deep scrub of tiles, sink, counters, appliances exterior, and sanitization.",
-    "imageURL": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=1200",
     "providerName": "SparkleCrew",
     "providerEmail": "seed@homehero.com"
   },
@@ -58,7 +58,7 @@
     "category": "AC Repair",
     "price": 50,
     "description": "Filter cleaning, basic gas check, performance test, and noise check.",
-    "imageURL": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1765634219706-15729e7a3295?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "CoolPro AC",
     "providerEmail": "seed@homehero.com"
   },
@@ -67,7 +67,7 @@
     "category": "AC Repair",
     "price": 75,
     "description": "Diagnose cooling issues: thermostat, airflow, leaks, and basic fixes.",
-    "imageURL": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1558919047-80f932b017cf?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "CoolPro AC",
     "providerEmail": "seed@homehero.com"
   },
@@ -76,7 +76,7 @@
     "category": "Carpentry",
     "price": 35,
     "description": "Fix sticky doors, align hinges, tighten frames, and smooth closing.",
-    "imageURL": "https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1626081063434-79a2169791b1?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "WoodWorks",
     "providerEmail": "seed@homehero.com"
   },
@@ -85,7 +85,7 @@
     "category": "Carpentry",
     "price": 55,
     "description": "Repair chairs/tables, tighten joints, replace screws, and touch-up polish.",
-    "imageURL": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1608613304899-ea8098577e38?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "WoodWorks",
     "providerEmail": "seed@homehero.com"
   },
@@ -94,7 +94,7 @@
     "category": "Painting",
     "price": 90,
     "description": "Wall prep, masking, 2 coats paint (labor only). Smooth finish guaranteed.",
-    "imageURL": "https://images.unsplash.com/photo-1562259949-5b835c9b12f8?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1688372199140-cade7ae820fe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "ColorNest",
     "providerEmail": "seed@homehero.com"
   },
@@ -103,7 +103,7 @@
     "category": "Painting",
     "price": 35,
     "description": "Fix small wall scuffs, nail holes, and blend paint for clean look.",
-    "imageURL": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1734475318787-b2b737296469?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "ColorNest",
     "providerEmail": "seed@homehero.com"
   },
@@ -112,7 +112,7 @@
     "category": "Appliance Repair",
     "price": 60,
     "description": "Diagnose washer issues: drainage, vibration, power, and basic repairs.",
-    "imageURL": "https://images.unsplash.com/photo-1581579186983-3f5c1c0c2d2a?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1770991190796-a121c47467eb?q=80&w=977&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "FixMate",
     "providerEmail": "seed@homehero.com"
   },
@@ -121,7 +121,7 @@
     "category": "Appliance Repair",
     "price": 65,
     "description": "Cooling problem diagnosis, door seal check, basic maintenance and repair.",
-    "imageURL": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&q=80&w=1200",
     "providerName": "FixMate",
     "providerEmail": "seed@homehero.com"
   },
@@ -130,7 +130,7 @@
     "category": "Pest Control",
     "price": 55,
     "description": "Targeted treatment + gel bait, kitchen/bath focus, safety guidance included.",
-    "imageURL": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1581578949510-fa7315c4c350?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlc3QlMjBjb250cm9sfGVufDB8fDB8fHww",
     "providerName": "SafeShield",
     "providerEmail": "seed@homehero.com"
   },
@@ -139,7 +139,7 @@
     "category": "Pest Control",
     "price": 45,
     "description": "Indoor mosquito control spray with ventilation and precaution guidelines.",
-    "imageURL": "https://images.unsplash.com/photo-1590125078708-0c3a0c7c2f3d?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1581578017093-cd30fce4eeb7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "SafeShield",
     "providerEmail": "seed@homehero.com"
   },
@@ -148,7 +148,7 @@
     "category": "Gardening",
     "price": 40,
     "description": "Basic balcony plant arrangement + soil tips + sunlight planning.",
-    "imageURL": "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "GreenHands",
     "providerEmail": "seed@homehero.com"
   },
@@ -157,7 +157,7 @@
     "category": "Gardening",
     "price": 50,
     "description": "Pruning, fertilizing, pest spotting, and routine plant care maintenance.",
-    "imageURL": "https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "GreenHands",
     "providerEmail": "seed@homehero.com"
   },
@@ -166,7 +166,7 @@
     "category": "Moving",
     "price": 70,
     "description": "2 hours of moving assistance for lifting, loading, and basic arrangement.",
-    "imageURL": "https://images.unsplash.com/photo-1600566752582-7c6d4f8b3a21?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1586781383963-8e66f88077ec?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "MoveSwift",
     "providerEmail": "seed@homehero.com"
   },
@@ -175,7 +175,7 @@
     "category": "Handyman",
     "price": 50,
     "description": "Mount TV securely, hide cables, and ensure level alignment.",
-    "imageURL": "https://images.unsplash.com/photo-1581579185167-9b0c0e9e0f1a?auto=format&fit=crop&w=1200&q=60",
+    "imageURL": "https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "providerName": "HandyPro",
     "providerEmail": "seed@homehero.com"
   }
