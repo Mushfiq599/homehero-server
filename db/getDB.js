@@ -5,12 +5,9 @@ let db;
 
 export async function connectDB() {
   if (db) return db;
-
   const uri = process.env.MONGO_URI;
   const dbName = process.env.DB_NAME || "homeheroDB";
-
   if (!uri) throw new Error("MONGO_URI missing in .env");
-
   client = new MongoClient(uri, {
     serverApi: {
       version: ServerApiVersion.v1,
@@ -18,11 +15,10 @@ export async function connectDB() {
       deprecationErrors: true,
     },
   });
-
   await client.connect();
   db = client.db(dbName);
 
-  console.log("✅ MongoDB connected:", dbName);
+  console.log(" MongoDB connected:", dbName);
   return db;
 }
 
