@@ -9,7 +9,9 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://homehero-client-site.netlify.app'] 
+}));
 app.use(express.json());
 app.get("/", (req, res) => res.send("HomeHero server is running "));
 app.use("/api/services", servicesRouter);
