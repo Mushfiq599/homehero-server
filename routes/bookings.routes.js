@@ -10,7 +10,7 @@ router.post("/", async (req, res) => {
     const db = getDB();
     const booking = req.body;
 
-    const required = ["serviceId", "userEmail", "bookingDate", "price"];
+    const required = ["serviceId", "userEmail", "bookingDate", "price", "image", "name","category"];
     const missing = required.filter((k) => !booking?.[k]);
     if (missing.length) {
       return res.status(400).json({ message: `Missing fields: ${missing.join(", ")}` });
@@ -35,7 +35,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// GET /api/bookings?email=user@mail.com
+// GET /api/bookings?email=...
 router.get("/", async (req, res) => {
   try {
     const db = getDB();
@@ -55,6 +55,7 @@ router.get("/", async (req, res) => {
   }
 });
 
+
 // DELETE /api/bookings/:id
 router.delete("/:id", async (req, res) => {
   try {
@@ -71,3 +72,8 @@ router.delete("/:id", async (req, res) => {
 });
 
 export default router;
+
+
+
+
+
