@@ -14,7 +14,7 @@ app.use(helmet());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173","https://homehero-client.netlify.app"
+      "http://localhost:5173", "https://homehero-36a96.web.app"
     ],
     credentials: true,
   })
